@@ -16,7 +16,7 @@ public class Customer {
 
     /**
      * 发起打折请求
-     * @param discount  折扣
+     * @param discount   折扣
      */
     public void requestDiscount(float discount){
         priceHandler.processDiscount(discount);
